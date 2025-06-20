@@ -104,3 +104,31 @@ main {
 .top {
     top: 0;
 }
+.meme {
+    position: relative;
+    text-align: center;
+}
+
+.meme img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.meme .top,
+.meme .bottom {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.meme .top {
+    top: 10px;
+}
+
+.meme .bottom {
+    bottom: 10px;
+}
